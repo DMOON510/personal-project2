@@ -1,0 +1,156 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Helvetica;
+}
+img {
+  height: 100px;
+}
+body {
+  background-color: #FFFFFF;
+}
+
+iframe {
+  display: none;
+  height: 517.3px;
+  width: 60%;
+}
+
+header {
+  background-color: #411410;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+h1 {
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 50px;
+  color: #FCD7D4;
+  margin-left: 60px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+div {
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button {
+  width: 150px;
+  height: 150px;
+  background-color: #E7877E;
+  border: none;
+  border-radius: 12px;
+  margin: 15px;
+}
+
+.allButtons {
+  float:left;
+  margin-left: 145px;
+  width: 40%;
+  margin-top: 190px;
+}
+
+/* button settings */
+.sweetButtons {
+  display: none;
+}
+
+.savoryButtons {
+  display: none;
+}
+
+.beverageButtons {
+  display: none;
+}
+.navbar {
+  background-color: #411410;
+  height: 30%;
+  width: 50%;
+  justify-content: right;
+  float: right;
+  margin-right: 0px;
+}
+.navbar a {
+  color: #FCD7D4;
+  padding: 15px;
+  font-size: 20px;
+  /* float: right; */
+  text-decoration: none;
+  padding-right: 10px;
+}
+.topbar {
+  margin-left: 45%;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.content {
+  height: 70%;
+  width: 40%;
+  float: right;
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+  background: #FCD7D4;
+}
+
+.name {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+
+.submit-btn {
+  width: 300px;
+  padding: 5px;
+  margin: 5px auto 25px auto;
+  background: #D14033;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 100%;
+}
+
+.card-container {
+  height: 522px;
+  padding: 30px;
+  background: #E7877E;
+}
+
+h2 {
+  color: #411410;
+  font-size: 120%;
+  margin-bottom: 10px;
+}
+
+.name-card {
+  color: #411410;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 350px;
+  background: #FCD7D4;
+  height: 50px;
+}
+
+.delete-btn {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+
+}
