@@ -40,7 +40,7 @@ var cakeButton = $('.cake');
 cakeButton.on('click', showCakeRecipe);
 
 function showCakeRecipe() {
-  var linksCake = ["https://www.youtube.com/watch?v=By2hmo323xM"];
+  var linksCake = ["https://www.youtube.com/watch?v=By2hmo323xM", "https://www.youtube.com/watch?v=5aPahOD4ssk"];
   webSite.css("display", "initial");
   buttons.css("margin-top", "0px");
   indButtons.css("height", "90px");
