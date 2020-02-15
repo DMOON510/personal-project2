@@ -157,7 +157,7 @@ function createName() {
 function appendRecipe(name) {
   cardContainer.append(`
     <div class="name-card">
-    <p>${name} is a great recipe!</p>
+    <p>I learned how to ${name}</p>
     <button class="delete-btn">X</button>
     </div>`);
 }
