@@ -40,7 +40,7 @@ var cakeButton = $('.cake');
 cakeButton.on('click', showCakeRecipe);
 
 function showCakeRecipe() {
-  var linksCake = ["https://www.tablespoon.com/recipes/shortcut-tiramisu-sheet-cake/5e39450d-bbd9-4c5b-82ad-5d429bb2e564", "https://www.tablespoon.com/recipes/banana-pudding-poke-cake/28b449b6-05ac-4bed-9440-bcd934b7ddfc", "https://www.tablespoon.com/recipes/upside-down-skillet-grilled-peach-cake/a4163b56-4426-44d4-b322-336b63cd42a2"];
+  var linksCake = ["https://www.youtube.com/watch?v=By2hmo323xM"];
   webSite.css("display", "initial");
   buttons.css("margin-top", "0px");
   indButtons.css("height", "90px");
